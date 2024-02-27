@@ -5,7 +5,7 @@
 }
 
 .container {
-    background-color: rgb(177, 10, 177);
+    background-color: rgb(120, 34, 250);
     padding: 20px;
     display: flex;
     gap: 30px;
@@ -20,13 +20,33 @@
     color: white;
     font-family: calibri;
 }
+.item:hover {
+    {cursor: -webkit-grab; cursor: grab;} 
+}
+
+.item1 >img{
+    width: 5vw;
+    height: 4vh;
+    position: absolute;
+    top: 11px;
+    left: 2px;
+    background-color: rgb(114, 24, 200);    
+    }
+
+.item1 >img:hover {
+    /* width: vw; */
+    /* height: 5vh; */
+    transform: rotate(-10deg);
+}
+
 
 .item6 >img{
     width: 3hw;
-    height: 2vh;
+    height: 1.5vh;
     position: absolute;
     margin-left: 140px;
-    top: 22px;
+    top: 23px;
+    /* left: 2px; */
     }
 
 .item7 >img{
